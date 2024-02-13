@@ -1,0 +1,9 @@
+{
+  "slug": "test-cat2",
+  "title": "Test category 2",
+  "rules": [
+    {
+      "rule": "content/rules/file1.mdx"
+    }
+  ]
+}

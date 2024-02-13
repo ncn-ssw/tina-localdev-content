@@ -1,0 +1,21 @@
+{
+  "slug": "test-cat",
+  "title": "Test Category",
+  "rules": [
+    {
+      "rule": "content/rules/file_984.mdx"
+    },
+    {
+      "rule": "content/rules/file_1.mdx"
+    },
+    {
+      "rule": "content/rules/file1.mdx"
+    },
+    {
+      "rule": "content/rules/file_1001.mdx"
+    },
+    {
+      "rule": "content/rules/Test-rule-1.mdx"
+    }
+  ]
+}
