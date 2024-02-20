@@ -1,6 +1,6 @@
 ---
 archived: true
-title: Test rule 1
+title: md rule
 ---
 
 User Stories are a great way to capture requirements, but it can be difficult to work out when the implementation of a story is complete.
