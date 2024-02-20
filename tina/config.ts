@@ -7,6 +7,27 @@ const branch =
     process.env.HEAD ||
     "main";
 
+const ruleFields = [
+    {
+        type: 'boolean',
+        name: 'archived',
+        label: 'Archived',
+    },
+    {
+        type: 'string',
+        name: 'title',
+        label: 'Title',
+        isTitle: true,
+        required: true,
+    },
+    {
+        type: 'rich-text',
+        name: 'body',
+        label: 'Body',
+        isBody: true,
+    },
+];
+
 export default defineConfig({
     branch,
 
@@ -114,26 +135,14 @@ export default defineConfig({
                 label: 'Rules',
                 path: 'content/rules',
                 format: 'mdx',
-                fields: [
-                    {
-                        type: 'boolean',
-                        name: 'archived',
-                        label: 'Archived',
-                    },
-                    {
-                        type: 'string',
-                        name: 'title',
-                        label: 'Title',
-                        isTitle: true,
-                        required: true,
-                    },
-                    {
-                        type: 'rich-text',
-                        name: 'body',
-                        label: 'Body',
-                        isBody: true,
-                    },
-                ],
+                fields: ruleFields,
+            },
+            {
+                name: 'rule_md',
+                label: 'Rules',
+                path: 'content/rules',
+                format: 'md',
+                fields: ruleFields,
             },
         ],
     },
