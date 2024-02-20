@@ -1,11 +1,11 @@
 ---
-archived: true
+archived: false
 title: md rule
 ---
 
 User Stories are a great way to capture requirements, but it can be difficult to work out when the implementation of a story is complete.
 
-**Acceptance Criteria** (from the Product Owner) help to answer the question *"How will I know when I'm done with this User Story?".* It 
+**Acceptance Criteria** (from the Product Owner) help to answer the question *"How will I know when I'm done with this User Story?".* It
 defines the exact requirements that must be met for the User Story to be completed.
 
 <!--endintro-->
@@ -27,32 +27,34 @@ They must be specified in the Acceptance Criteria if required for the story to b
 When I enter ‘Adam’ in the search box and click 'Search' I will see all entries starting with 'Adam' in the grid
 :::
 ::: bad
-Figure: Bad example of Acceptance Criteria - Incomplete 
+Figure: Bad example of Acceptance Criteria - Incomplete
 :::
 
 ::: greybox
+
 * When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid
 * When I enter ‘zzz’ in the Search box and click ‘Search’ I will see **no** entries in the Grid
-:::
-::: ok
-Figure: OK example of Acceptance Criteria - However the Product Owner probably hasn't included all of their requirements
-:::
+  :::
+  ::: ok
+  Figure: OK example of Acceptance Criteria - However the Product Owner probably hasn't included all of their requirements
+  :::
 
 ::: greybox
+
 * When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid
 * When I enter ‘zzz’ in the Search box and click ‘Search’ I will see **no** entries in the Grid
 * If no results are returned, show a message box ‘No results found’
 * If no search text is entered, the ‘Search’ button should be disabled
 * Right-clicking on a column header should provide ‘Sort’ functionality
 * If a large set of results is returned, display pagination with page numbers and ‘Prev’, ‘Next’ links
-:::
-::: good
-Figure: Good example of Acceptance Criteria
-:::
+  :::
+  ::: good
+  Figure: Good example of Acceptance Criteria
+  :::
 
 ::: info
-**Note:** For tiny User Stories, you can omit Acceptance Criteria. Sometimes you just need a **screenshot** or, even better, a **video**.  
-Be mindful that such small User Stories are the exception and not the rule when it comes to the need for Acceptance Criteria. 
+**Note:** For tiny User Stories, you can omit Acceptance Criteria. Sometimes you just need a **screenshot** or, even better, a **video**.\
+Be mindful that such small User Stories are the exception and not the rule when it comes to the need for Acceptance Criteria.
 :::
 
 ### Negotiating "gold plating"
@@ -64,6 +66,7 @@ Any requirements that the Product Owner considers "nice to have" - as opposed to
 :::
 
 ### Technical Acceptance Criteria
+
 Sometimes, the team may discuss including technical requirements in Acceptance Criteria. Typically, technical Acceptance Criteria should be avoided. However, there are some situations where it makes sense, such as when:
 
 * The team is trying out something new
@@ -90,7 +93,7 @@ It is good practice to make sure that each of the Acceptance Criteria is **testa
 
 Acceptance Criteria help to answer the question *"How will I know when I'm done with this User Story?"*. **The Acceptance Criteria are different for each User Story**, provided by the Product Owner and used as a way to communicate to all involved that the requirements for a particular User Story have been met.
 
-The [Definition of Done](/definition-of-done) is a structured list of items, each one used to validate a User Story, which exists to ensure that the team agrees about the quality of work they’re producing. It is defined by the team and serves as a checklist that is used to check each User Story for completeness. **The definition of "Done" is intended to be applicable to all items in the Product Backlog**, not just a single User Story. 
+The [Definition of Done](/definition-of-done) is a structured list of items, each one used to validate a User Story, which exists to ensure that the team agrees about the quality of work they’re producing. It is defined by the team and serves as a checklist that is used to check each User Story for completeness. **The definition of "Done" is intended to be applicable to all items in the Product Backlog**, not just a single User Story.
 
 Examples of items in a Definition of Done that would **not** be part of Acceptance Criteria include:
 
@@ -98,13 +101,13 @@ Examples of items in a Definition of Done that would **not** be part of Acceptan
 * Unit tests passed
 * Code deployed to production
 
-::: info 
+::: info
 The term "Definition of Done" is defined in the Scrum Guide, while "Acceptance Criteria" is not.
 :::
 
 ### Capture changes to the PBI from discussions
 
-The Acceptance Criteria are the source of truth for what functionality needs to be implemented for the PBI to be considered complete, so it's important to capture any changes to the PBI and the Acceptance Criteria (e.g. adding or removing "nice to have" aspects of the story). 
+The Acceptance Criteria are the source of truth for what functionality needs to be implemented for the PBI to be considered complete, so it's important to capture any changes to the PBI and the Acceptance Criteria (e.g. adding or removing "nice to have" aspects of the story).
 
 Any discussion that changes the story and/or the Acceptance Criteria should be noted in the Discussion section of the PBI for reference.
 
