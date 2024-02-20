@@ -123,7 +123,7 @@ export default defineConfig({
                                 type: 'reference',
                                 name: 'rule',
                                 label: 'Rule',
-                                collections: ['rule'],
+                                collections: ['rule', 'rule_md'],
                                 required: true,
                             }
                         ]
