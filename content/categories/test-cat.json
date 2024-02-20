@@ -6,6 +6,9 @@
       "rule": "content/rules/file_984.mdx"
     },
     {
+      "rule": "content/rules/test-md-rule.md"
+    },
+    {
       "rule": "content/rules/file_1.mdx"
     },
     {
