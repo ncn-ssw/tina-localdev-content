@@ -1,4 +1,4 @@
-import { defineConfig } from "tinacms";
+import { TinaField, defineConfig } from "tinacms";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch =
@@ -135,14 +135,14 @@ export default defineConfig({
                 label: 'Rules',
                 path: 'content/rules',
                 format: 'mdx',
-                fields: ruleFields,
+                fields: ruleFields as TinaField[],
             },
             {
                 name: 'rule_md',
                 label: 'Rules',
                 path: 'content/rules',
                 format: 'md',
-                fields: ruleFields,
+                fields: ruleFields as TinaField[],
             },
         ],
     },
