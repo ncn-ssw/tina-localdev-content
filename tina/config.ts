@@ -30,12 +30,15 @@ const ruleFields = [
 
 export default defineConfig({
     branch,
-
     // Get this from tina.io
     clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
     // Get this from tina.io
     token: process.env.TINA_TOKEN,
-
+    tinaioConfig: {
+        frontendUrlOverride: 'http://localhost:3000',
+        identityApiUrlOverride: 'https://bjeyn-identity.tinajs.dev',
+        contentApiUrlOverride: 'https://bjeyn-content.tinajs.dev'
+    },
     build: {
         outputFolder: "admin",
         publicFolder: "public",
