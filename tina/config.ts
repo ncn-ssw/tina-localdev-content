@@ -35,7 +35,7 @@ export default defineConfig({
     // Get this from tina.io
     token: process.env.TINA_TOKEN,
     tinaioConfig: {
-        frontendUrlOverride: 'http://localhost:3000',
+        frontendUrlOverride: 'http://localhost:3002',
         identityApiUrlOverride: 'https://bjeyn-identity.tinajs.dev',
         contentApiUrlOverride: 'https://bjeyn-content.tinajs.dev'
     },
