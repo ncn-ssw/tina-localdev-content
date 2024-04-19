@@ -36,8 +36,8 @@ export default defineConfig({
     token: process.env.TINA_TOKEN,
     tinaioConfig: {
         frontendUrlOverride: 'http://localhost:3002',
-        identityApiUrlOverride: 'https://bjeyn-identity.tinajs.dev',
-        contentApiUrlOverride: 'https://bjeyn-content.tinajs.dev'
+        identityApiUrlOverride: 'https://ncn-tmp-identity.tinajs.dev',
+        contentApiUrlOverride: 'https://ncn-tmp-content.tinajs.dev'
     },
     build: {
         outputFolder: "admin",
